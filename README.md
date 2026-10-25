@@ -1,9 +1,7 @@
-# ClientServerBasics (2.0)
-Starter code for the basic client-server assignment
+# Atividade ASR04 --- Coisa com Cliente-Servidor
 
+A forma de descrever o que eu fiz é basicamente: Você escolhe um conjunto de informações que você quer sobre um vetor de números. Eu não fiz as verificações necessárias para poder verificar se o vetor é um vetor de números apenas mas isso não interessa aqui na atividade por enquanto.
 
-Este template corresponde ao exemplo da Fig. 2.3 do livro. O exercício consiste em acrescentar funcionalidade ao servidor para torná-lo mais útil. Essa funcionalidade deve ser acessível aos clientes. Por exemplo, o servidor pode ser uma espécie de calculadora remota. O cliente passa dois valores numéricos, juntamente com o nome de uma operação (ex.: add, subtract, multiply, divide) e o servidor executa a operação respectiva e retorna seu resultado para o cliente. Você pode implementar um servidor com outras funcionalidades (diferente da calculadora). O imporante é que ele ofereça pelo menos três operações diferentes que os clientes podem utilizar remotamente, passando dados para serem processados e recebendo o resultado desse processamento como resposta.
+A ideia dessa atividade é mostrar como fazer o cliente interagir com o servidor. O que eu fiz foi apenas um sistema no servidor com algumas funções matemáticas usando algumas bibliotecas do python que eu sei que existiam mas nunca tentei usar. Depois disso, eu coloquei na AWS e diferenciei o ip do cliente e ip do servidor pra poder fazer tudo funcionar lá na nuvem. Essencialmente é isso.
 
-Tarefa individual.
-
-Incluir um Readme descritivo do sistema implementado.
+Não coloquei coisas de entrada e saída para o cliente e honestamente eu não sei porque.
